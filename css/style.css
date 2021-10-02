@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(127, 12%, 16%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding: 3rem 5rem;
+  color: hsl(127, 11%, 7%);
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  display: flex;
+}
+
+.container {
+  background-color: white;
+  border-radius: 0.5rem;
+  max-width: 25.5rem;
+  margin: auto;
+  padding: 3rem 2rem;
+}
+
+input {
+  height: 3rem;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+  border: 1px solid;
+  width: 21.15rem;
+  margin-bottom: 0.15rem;
+  border: 1px solid hsl(127, 13%, 55%);
+}
+
+input:focus {
+  outline: 1px solid hsl(127, 46%, 93%);
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  background-color: hsl(127, 13%, 62%);
+  border: none;
+  cursor: pointer;
+  width: 5rem;
+  color: hsl(127, 11%, 7%);
+}
+
+button:hover {
+  background-color: hsl(127, 14%, 24%);
+  color: white;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 4rem 2rem;
+  }
+
+  .container {
+    max-width: 17.5rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  input {
+    height: 2rem;
+    width: 13.2rem;
+  }
+
+  button {
+    width: 3rem;
+  }
+}
+
+@media (max-width: 362px) {
+  body {
+    padding: 3rem 1rem;
+  }
+
+  .container {
+    padding: 2rem 1rem;
+    max-width: 15.4rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  input {
+    height: 2rem;
+    width: 13.2rem;
+  }
+
+  button {
+    width: 3rem;
+  }
+}
